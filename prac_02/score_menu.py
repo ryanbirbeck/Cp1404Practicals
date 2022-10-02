@@ -5,16 +5,13 @@ def main():
             points = int(input("Input your score: "))
             points, result = assign_result_to_score(points)
             print("Your score is " + result)
-            menu = str(input("(I)nput score:\n(P)rint stars:\n(Q)uit:\n>>")).upper()
         elif menu == "P":
             print_stars(points)
-            menu = str(input("(I)nput score:\n(P)rint stars:\n(Q)uit:\n>>")).upper()
         elif menu == "Q":
             print("goodbye")
-            menu = str(input("(I)nput score:\n(P)rint stars:\n(Q)uit:\n>>")).upper()
         else:
             print("invalid")
-            menu = str(input("(I)nput score:\n(P)rint stars:\n(Q)uit:\n>>")).upper()
+        menu = str(input("(I)nput score:\n(P)rint stars:\n(Q)uit:\n>>")).upper()
 
 
 def assign_result_to_score(points):
@@ -35,4 +32,3 @@ def print_stars(points=1, shape='*'):
 
 
 main()
-
