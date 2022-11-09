@@ -10,8 +10,12 @@ def main():
         guitars.append(guitar)
     in_file.close()
 
-    for guitar in guitars:
-        print(guitar)
+
+
+    #
+    # for i, guitar in enumerate(guitars):
+    #     if Guitar.__lt__(guitar, i + 1):
+    #         print(guitar)
 
 
 main()
