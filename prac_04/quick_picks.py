@@ -4,6 +4,7 @@ numbers_each_line = 6
 minimum = 1
 maximum = 45
 
+
 def main():
     """choose sets of random numbers"""
     num_of_quick_picks = int(input("select number of lines for quick picks: "))
@@ -23,5 +24,3 @@ def main():
 
 
 main()
-
-
